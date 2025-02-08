@@ -12,7 +12,7 @@ sales = [380,400,660,800,900,1200,1600,2200,1500,1100,600,250]
 
 plt.bar(Months, sales, color='green', width= 0.5)
 plt.title('Bar Chart of Ice-cream Sales')  
-plt.xlabel('Months')   
+plt.xlabel('Month')   
 plt.ylabel('Sales(in thousand dollars)')
 plt.show()
 plt.savefig('Bar chart of Ice-cream Sales')
